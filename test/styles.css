@@ -1,19 +1,35 @@
-/* css html selector */
-h1 {
-    color:red;
-    font-size: 64px;
-    text-decoration: underline;
-}
-p {
-    color: green;
+body {
+    background: #343030;
+    margin: 0;
 }
 
-/* css id selector */
-#h-2 {
-    font-size: 15px;
+.container {
+    background-color: #c1b8b8;
+    position: relative;
 }
 
-/* css class selector */
-.p1 {
-    text-decoration: line-through;
+.item {
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    color: white;
+    position: inherit;
+    left: 100px;
+}
+
+.red {
+    background-color: red;
+    top: 500px;
+    /* top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px; 
+    z-index: 1; */
+   
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
 }
