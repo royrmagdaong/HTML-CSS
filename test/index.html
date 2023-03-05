@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline CSS</title>
+    <title>Internal CSS</title>
+    <style>
+        /* css html selector */
+        h1 {
+            color:red;
+            font-size: 64px;
+            text-decoration: underline;
+        }
+        p {
+            color: green;
+        }
+
+        /* css id selector */
+        #h-2 {
+            font-size: 15px;
+        }
+
+        /* css class selector */
+        .p1 {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color:red; font-size: 64px;">Hello World</h1>
+    <h1>Hello World</h1>
+    <h1 id="h-2">Hello World 2</h1>
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellendus accusamus animi eaque voluptatibus facilis praesentium neque ab voluptate omnis! Animi totam assumenda unde eveniet repudiandae quis ab praesentium modi.</p>
+    <p class="p1">this is paragraph 2</p>
 </body>
 </html>
