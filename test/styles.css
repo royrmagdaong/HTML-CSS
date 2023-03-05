@@ -1,0 +1,19 @@
+/* css html selector */
+h1 {
+    color:red;
+    font-size: 64px;
+    text-decoration: underline;
+}
+p {
+    color: green;
+}
+
+/* css id selector */
+#h-2 {
+    font-size: 15px;
+}
+
+/* css class selector */
+.p1 {
+    text-decoration: line-through;
+}
